@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuevo documento - Plats</title>
+</head>
+<body>
+    <header>
+        <a href="">PLATS</a>
+        <nav>
+            <a href="">Inicio</a>
+            <a href="">Biblioteca compartida</a>
+            <a href="">Notas</a>
+            <a href="">Foro</a>
+        </nav>
+        <a href="">Ft perfil</a>
+    </header>
+    
+    <section class="agregarDoc">
+        <h2>Biblioteca compartida > Agregar documento</h2>
+        <h1>Agregar Documento</h1>
+
+        <label for="nombreDoc">Nombre del nuevo documento</label>
+        <input type="text" id="nombreDoc">
+        
+        <label for="">Carrera Correspondiente</label>
+        <select name="" id="carrerasCargadas">
+            <option value="">Seleccionar carrera</option>
+        </select>
+
+        <label>Tipo</label>
+            <div>
+                <input type="radio" id="opcionResumen" name="tipo_documento" value="resumen" checked>
+                <label for="resumen">Resumen</label>
+    
+                <input type="radio" id="opcionDocumento" name="tipo_documento" value="documento">
+                <label for="documento">Documento</label>
+            </div>
+            
+        <label for="">Descripción</label>
+        <textarea name="" id=""></textarea>
+
+        <div class="drop-zone">
+            <input type="file" id="pdfFile" name="pdf_file" accept=".pdf" class="file-input-hidden">
+    
+            <label for="pdfFile" class="drop-zone-label">
+                Subir archivo en PDF
+                <br>
+                Arrastra o elige de tus archivos
+            </label>
+        </div>
+
+        <button id="subirDocBtn">Subir documento</button>
+    </section>
+
+    <footer>
+        <a href="">PLATS</a>
+        <div>
+            <p>Obligatorio 2 Programacion 2</p>
+            <p>Avril Estefan y Florencia Scaltritti</p>
+            <p>Universidad ORT Uruguay</p>
+        </div>
+
+        <div>
+            <a href="">icon1</a>
+            <a href="">icon2</a>
+            <a href="">icon3</a>
+        </div>
+        <p>Consultas: soporteplats@gmail.com</p>
+    </footer>
+
+</body>
+</html>
